@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Figures</string>
+    <string name="button_main">Расчитать</string>
+    <string name="triangelCenter">Координаты центра</string>
+    <string name="triangelSquare">Площадь</string>
+    <string name="triangelPerimetr">Периметр</string>
+    <string name="hintOne">Введи длину основания</string>
+    <string name="hintTwo">Введи длину первой стороны</string>
+    <string name="hintTree">Введи длину второй стороны</string>
+    <string name="hintCircle">Введи длину радиуса</string>
+    <string name="xT">Введи координату центра Х</string>
+    <string name="yT">Введи координату центра Y</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/xx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/xT"
+        android:gravity="center"
+        android:inputType="numberDecimal|numberSigned"/>
+    <EditText
+        android:id="@+id/yy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/yT"
+        android:gravity="center"
+        android:inputType="numberDecimal|numberSigned"/>
+    <EditText
+        android:id="@+id/one_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/hintTwo"
+        android:gravity="center"
+        android:inputType="numberDecimal"/>
+    <EditText
+        android:id="@+id/two_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/hintTree"
+        android:gravity="center"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/button_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Расчитать"/>
+
+    <TextView
+        android:id="@+id/rectangle_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+
+
+    <TextView
+        android:id="@+id/rectangle_square"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+
+
+    <TextView
+        android:id="@+id/rectangle_perimeter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+</LinearLayout>
